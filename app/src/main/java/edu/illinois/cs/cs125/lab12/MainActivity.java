@@ -76,10 +76,7 @@ public final class MainActivity extends AppCompatActivity {
                             Log.w(TAG, error.toString());
                         }
                     });
-            requestQueue.add(jsonObjectRequest);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
 
     }
 }
